@@ -17,7 +17,7 @@ end
 redis = Redis.new(:host => config['redis_host'], :port => config['redis_port'])
 short_url_prefix = config['short_url_prefix']
 
-post '/save' do
+post '/short' do
   json_data = JSON.parse request.body.read
   
   url = json_data['raw_url']
