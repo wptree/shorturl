@@ -2,3 +2,5 @@ short_url_prefix: http://www.test.im/
 raw_url_regex: ^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$
 redis_host: 192.168.1.11
 redis_port: 6379
+mail_domain: wptree.com
+mailgun_api_key: key-308jvt37cl0xb3f614533wzoeoex5s24

@@ -1,6 +1,6 @@
 require "rubygems"
 require "sinatra"
 
-require './shorturl.rb'
+require './application.rb'
 
 run Sinatra::Application
